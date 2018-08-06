@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--<object name="UserInfo" type="SpringTest.UserInfo, SpringTest" singleton="false">
+    <property name="Name" value="李四"/>
+    <property name="Age" value="15"/>
+  </object>-->
+  <object type="SpringTest.Program,SpringTest"  singleton="false">
+    <!--parent="BaseController"-->
+    <property name="TestValue" value="Not First Definition of Type" />
+    <property name="RoleInfoBLL" ref="RoleInfoBLL"/>
+    <property name="ActionInfoBLL" ref="ActionInfoBLL"/>
+  </object>
+  
+</objects>

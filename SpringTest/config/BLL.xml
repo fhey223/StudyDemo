@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <objects xmlns="http://www.springframework.net">
+  <object name="UserInfoService" type="SpringTest.UserInfoService,SpringTest" singleton="false"/>
+  <object name="UserInfoBLL" type="EF.BLL.UserInfoBLL,EF.BLL" singleton="false"/>
+  <object name="RoleInfoBLL" type="EF.BLL.RoleInfoBLL,EF.BLL" singleton="false"/>
+  <object name="ActionInfoBLL" type="EF.BLL.ActionInfoBLL,EF.BLL" singleton="false"/>
+</objects>
+</objects>
